@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Carousel</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="carousel">
+      <button class="carousel__button carousel__button--left">
+        <img src="./images/back.svg" alt="" />
+      </button>
+      <div class="carousel__track-container">
+        <ul class="carousel__track">
+          <li class="carousel__slide current-slide first-slide">
+            <img
+              class="carousel__image"
+              src="https://sun9-7.userapi.com/c849336/v849336854/1dd8a8/caa6aa0ykrA.jpg"
+              alt=""
+            />
+          </li>
+          <li class="carousel__slide">
+            <img
+              class="carousel__image"
+              src="https://sun9-11.userapi.com/c637220/v637220896/4dfd2/nGB0H5DWJew.jpg"
+              alt=""
+            />
+          </li>
+          <li class="carousel__slide">
+            <img
+              class="carousel__image"
+              src="https://sun9-45.userapi.com/c637220/v637220896/4dfdc/-VYy-XMMQ6Y.jpg"
+              alt=""
+            />
+          </li>
+          <li class="carousel__slide last-slide">
+            <img
+              class="carousel__image"
+              src="https://sun9-34.userapi.com/c636523/v636523896/69d/uMDAkQJlqu0.jpg"
+              alt=""
+            />
+          </li>
+        </ul>
+      </div>
+      <button class="carousel__button carousel__button--right">
+        <img src="./images/next.svg" alt="" />
+      </button>
+      <div class="carousel__nav">
+        <button class="carousel__indicator current-slide first-dot"></button>
+        <button class="carousel__indicator"></button>
+        <button class="carousel__indicator"></button>
+        <button class="carousel__indicator last-dot"></button>
+      </div>
+    </div>
+    <script src="carousel.js"></script>
+  </body>
+</html>
